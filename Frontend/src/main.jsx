@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Test2 from './funct_exer/func_comp6'
+import ReducerDependency from './funct_exer/func_comp8'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     <Test2/> 
+     <ReducerDependency/> 
   </StrictMode>,
 )
